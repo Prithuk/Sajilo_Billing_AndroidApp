@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mero Restaurant</string>
+    <string name="View_all_Vehicles">View all Vehicles</string>
+    <string name="Add_Two_Wheeler">Add Two-Wheeler</string>
+    <string name="Add_four_Wheeler">Add Four- Wheeler</string>
+    <string name="enter_time">Enter time</string>
+</resources>

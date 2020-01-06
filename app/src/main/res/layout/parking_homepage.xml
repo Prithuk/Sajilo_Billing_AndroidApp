@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/parkinghomepagedehaze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+    <view
+        android:layout_width="match_parent"
+        android:background="@color/blue25"
+        android:layout_below="@+id/parkinghomepagedehaze"
+        android:layout_height="1dp"/>
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:id="@+id/floatingmenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        fab:menu_showShadow="true"
+        fab:menu_fab_label=""
+        fab:menu_openDirection="up"
+        fab:menu_colorNormal="@color/blue25"
+        android:layout_height="wrap_content">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingactionall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="@string/View_all_Vehicles"
+            android:src="@drawable/ic_check_black_24dp"
+            android:background="@color/green"
+            fab:fab_size="mini"
+            >
+
+        </com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingactionbike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="@string/Add_Two_Wheeler"
+            android:src="@drawable/ic_motorcycle_black_24dp"
+            android:background="@color/green"
+            fab:fab_size="mini"
+            >
+
+        </com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingactioncar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="@string/Add_four_Wheeler"
+            android:src="@drawable/ic_directions_car_black_24dp"
+            android:background="@color/green"
+            fab:fab_size="mini"
+            >
+
+        </com.github.clans.fab.FloatingActionButton>
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+</RelativeLayout>
