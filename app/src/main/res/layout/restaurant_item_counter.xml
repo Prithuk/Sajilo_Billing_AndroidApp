@@ -19,11 +19,11 @@
         android:layout_marginTop="5dp"
         android:layout_height="wrap_content" />
 
-    <view
+    <View
         android:id="@+id/counterview"
         android:layout_width="match_parent"
         android:background="@color/blue2"
-        android:layout_height="1dp"/>
+        android:layout_height="1dp" > </View>
 
 
 <TextView

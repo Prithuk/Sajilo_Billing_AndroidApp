@@ -14,11 +14,12 @@
         android:paddingLeft="10dp"
         android:src="@drawable/ic_arrow_back_black_24dp" />
 
-    <view
+    <View
         android:layout_width="match_parent"
         android:background="@color/blue25"
         android:layout_below="@+id/parkinghomepagedehaze"
-        android:layout_height="1dp"/>
+        android:layout_height="1dp">
+    </View>
 
 
 

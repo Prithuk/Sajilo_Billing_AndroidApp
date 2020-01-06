@@ -16,12 +16,14 @@
         android:layout_marginTop="5dp"
         android:layout_height="wrap_content" />
 
-    <view
+    <View
         android:id="@+id/restaurantselectionview"
         android:layout_width="match_parent"
         android:layout_below="@+id/selectionrestaurantdehaze"
         android:background="@color/blue2"
-        android:layout_height="1dp"/>
+        android:layout_height="1dp">
+
+    </View>
 
     <TextView
         android:layout_width="wrap_content"
